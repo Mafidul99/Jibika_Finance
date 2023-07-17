@@ -743,7 +743,8 @@
     <!-- template js -->
     <script src="../../assets/js/theme.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+    
     
     <script>
         if(window.history.replaceState){
@@ -769,6 +770,8 @@
             unset($_SESSION['status']);
         }
         ?>
+    
+
 </body>
 
 </html>
