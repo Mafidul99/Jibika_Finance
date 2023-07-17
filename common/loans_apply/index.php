@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
-    <title>Loan Application | Jibika Finance Private Limited</title>
+    <title>Loan Request | JF Pvt. Ltd</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
@@ -97,10 +97,11 @@
                                 <div class="form-group">
                                     <label>Purpose of Loan <span style="color:red;">*</span></label>
                                     <select name="purposeloan" class="contact-one__form-input custom-select" required>
-                                        <option value="Business Loan">Business Loan</option>
+                                        <option value="">---Select Purpose of Loan---</option>
+                                        <option value="Personal Loan">Personal Loan</option>
                                         <option value="Group Loan">Group Loan</option>
-                                        <option value="Education Loan">Education Loan</option>
-                                        <option value="Other">Other</option>
+                                        <option value="Product Loan">Product Loan</option>
+                                        <option value="Gold Loan">Gold Loan</option>
                                     </select>
                                 </div>
                                 <!-- /.form-group-->
@@ -109,9 +110,10 @@
                                 <div class="form-group">
                                     <label>Loan Months <span style="color:red;">*</span></label>
                                     <select name="loanmonths" class="contact-one__form-input custom-select" required>
-                                        <option value="4 Months">4 Months</option>
-                                        <option value="5 Months">5 Months</option>
-                                        <option value="1 Years">1 Years</option>
+                                        <option value="">---Select Loan Months---</option> 
+                                        <option value="5 Months"> 5 Months (Personal Loan)</option>
+                                        <option value="4 Months">4 Months (Group Loan)</option>
+                                        <option value="1 Years">1 Years (Gold Loan)</option>
                                     </select>
                                 </div>
                                 <!-- /.form-group-->
@@ -228,6 +230,7 @@
                                 <div class="form-group">
                                     <label>Gender <span style="color:red;">*</span></label>
                                     <select name="gender" class="contact-one__form-input custom-select" required>
+                                        <option value="">---Select Gender---</option>    
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
                                     </select>
@@ -238,11 +241,11 @@
                                 <div class="form-group">
                                 <label>Category<span style="color:red;">*</span></label>
                                     <select name="category" class="contact-one__form-input custom-select" required>
-                                        <option value="">Select your category</option>
+                                        <option value="">Select Your Category</option>
+                                        <option value="General">General</option>
                                         <option value="SC">ST</option>
                                         <option value="ST">SC</option>
-                                        <option value="OBC">OBC</option>
-                                        <option value="General">General</option>
+                                        <option value="OBC">OBC</option>                                        
                                     </select>
                                 </div>
                                 <!-- /.form-group-->
@@ -258,7 +261,8 @@
                                 <div class="form-group">
                                     <label>Marital Status<span style="color:red;">*</span></label>
                                     <select name="martialstatus" class="contact-one__form-input custom-select" required>
-                                        <option value="Single">Single</option>
+                                        <option value="">-----Select-------</option>    
+                                        <option value="Unmarried">Unmarried</option>
                                         <option value="Married">Married</option>
                                     </select>
                                 </div>
@@ -388,7 +392,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label>Trade License Number <span style="color:red;">*</span></label>
-                                    <input type="number" name="tlnumber" class="form-control contact-one__form-input" placeholder="Trade License Number" required>
+                                    <input type="text" name="tlnumber" class="form-control contact-one__form-input" placeholder="Trade License Number" required>
                                 </div>
                                 <!-- /.form-group-->
                             </div>
@@ -400,11 +404,9 @@
                                         <option value="Select">--- Select ---</option>
                                         <option value="Part Time Employed">Part Time Employed</option>
                                         <option value="Self Employed">Self Employed</option>
-                                        <option value="Temporarily Employed">Temporarily Employed</option>
-                                        <option value="Student">Student</option>
-                                        <option value="Pension">Pension</option>
-                                        <option value="Disability">Disability</option>
-                                        <option value="Unemployed">Unemployed</option>
+                                        <option value="Salaries">Salaries</option>
+                                        <option value="Business">Business</option>
+                                        <option value="Pensioner">Pensioner</option>
                                     </select>
                                 </div>
                                 <!-- /.form-group-->
@@ -625,17 +627,17 @@
                                 <!-- /.form-group-->
                             </div>
                             <!-- /.col-md-4-->
-                            <div class="col-md-3 pt-4">
-                                <div class="row">
-                                    <div class="col-sm-12">
+                            <div class="col-md-3 pt-4 ">
+                                <div class="row  float-right">
+                                    <div class="col-sm-12 ">
                                         <div class="form-group">
                                             <label>Your Phoro <span style="color:red;"> * </span></label>
                                             <p style="color:red;">(size: W-2.5" to H-3.5")</p>
-                                            <div style="border: 1px solid black; height: 180px; width: 180px;  background: #F5FAFF;">
-                                                <img id="output" width="180" height="180" / style="display:none">
+                                            <div style="border: 1px solid black; height: 150px; width: 160px;  background: #F5FAFF;">
+                                                <img id="output" width="160" height="150" / style="display:none">
                                             </div>
                                         </div>
-                                        <input type="file" name="ypimage" id="ypimage" onchange="loadFile(event)" class="form-control" required accept="image/*" / style="width:180px;" required>
+                                        <input type="file" name="ypimage" id="ypimage" onchange="loadFile(event)" class="form-control" required accept="image/*" / style="width:160px;" required>
 
                                         <script>
                                             var loadFile = function(event) {
@@ -660,11 +662,11 @@
                                         <div class="form-group">
                                             <label>Your Signature <span style="color:red;">*</span></label>
                                             <p style="color:red;">(size: W-3.5" to H-1.2")</p>
-                                            <div style="border: 1px solid black; height: 120px; width: 250px;  background: #F5FAFF;">
-                                                <img id="outputs" width="250" height="120" / style="display:none">
+                                            <div style="border: 1px solid black; height: 110px; width: 260px;  background: #F5FAFF;">
+                                                <img id="outputs" width="260" height="110" / style="display:none">
                                             </div>
                                         </div>
-                                        <input type="file" id="simage" name="simage" onchange="loadFiles(event)" class="form-control" required accept="image/*" / style="width:250px;" required>
+                                        <input type="file" id="simage" name="simage" onchange="loadFiles(event)" class="form-control" required accept="image/*" / style="width:260px;" required>
                                         <script>
                                             var loadFiles = function(event) {
                                                 var reader = new FileReader();
@@ -684,12 +686,14 @@
                             <!-- /.col-md-4-->
                         </div>
                         <!-- /.row-->
-                        <div class="row pt-5">
+                        <div class="row pt-2">
                             <div class="col-md-12">
                                 <div style="padding:20px; border-radius: 25px;font-size: 18px;">
                                     <label>Declaration <span style="color:red;">*</span></label>
-                                    <input type="checkbox" name="declaration" class="form-control" style="width:28px;" required> I declare that I have read and filled the above information, so if the information given by me is incorrect, you have the right
-                                    to cancel without informing me.
+                                    <input type="checkbox" name="declaration" class="form-control" style="width:28px;" required> 
+                                    I hereby declare that all the information given above is true and correct to the best of my knowledge. 
+                                    All the information shared in the Loan request is correct, and I take full responsibility for its correctness. 
+                                    I solemnly declare that the information in this Loan request is true to the best of my knowledge and belief.
                                 </div>
                             </div>
                         </div>

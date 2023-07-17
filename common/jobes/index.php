@@ -82,7 +82,7 @@
                                 <div class="form-group">
                                     <label>Jobes Name<span style="color:red;">*</span></label>
                                     <select name="jobes" class="contact-one__form-input custom-select" required>
-                                        <option value="">Select Your Jobes</option>
+                                        <option value="">---Select Your Jobes---</option>
                                         <option value="Multitacking Jobs Vacancies">Multitacking Jobs Vacancies</option>
                                         <option value="Receptionist Jobs Vacancies">Receptionist Jobs Vacancies</option>
                                         <option value="Collection Executive Jobs Vacancies">Collection Executive Jobs Vacancies</option>
@@ -154,6 +154,7 @@
                                 <div class="form-group">
                                     <label>Gender <span style="color:red;">*</span></label>
                                     <select name="gender" class="contact-one__form-input custom-select" required>
+                                        <option value="">---- Select Gender ---- </option>
                                         <option value="Male">Male</option>
                                         <option value="Female">Female</option>
                                     </select>
@@ -206,7 +207,8 @@
                                 <div class="form-group">
                                     <label>Marital Status<span style="color:red;">*</span></label>
                                     <select name="martialstatus" class="contact-one__form-input custom-select" required>
-                                        <option value="Single">Single</option>
+                                        <option value="">---- Select ---- </option>
+                                        <option value="Unmarried">Unmarried</option>
                                         <option value="Married">Married</option>
                                     </select>
                                 </div>
@@ -249,7 +251,7 @@
                                 <div class="form-group">
                                     <label>State<span style="color:red;">*</span></label>
                                     <select name="state" class="contact-one__form-input custom-select" required>
-                                        <option value="">Select State</option>
+                                        <option value="">---Select State---</option>
                                         <option value="Andhra Pradesh">Andhra Pradesh</option>
                                         <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                                         <option value="Assam">Assam</option>
@@ -293,7 +295,7 @@
                                 <div style="padding:20px; border-radius: 25px;font-size: 18px;  text-align: justify;">
                                     <label>Declaration <span style="color:red;">*</span></label>
                                     <input type="checkbox" name="declaration" class="form-control" style="width:28px;" required> I hereby declare that all the information given above is true and correct to the best of my knowledge. 
-                                    All the information shared in the resume is correct, and I take full responsibility for its correctness. I solemnly declare that the information in this resume is true to the best of my knowledge 
+                                    All the information shared in the Details is correct, and I take full responsibility for its correctness. I solemnly declare that the information in this Details is true to the best of my knowledge 
                                     and belief.
                                 </div>
                             </div>
