@@ -193,7 +193,7 @@ if (isset($_POST['form_submit'])) {
 			</table>";
 
 	try {
-		$mail->isSMTP();
+		//$mail->isSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->Username = 'softdeve84@gmail.com'; // Gmail address which you want to use as STMP server//
@@ -201,7 +201,7 @@ if (isset($_POST['form_submit'])) {
 		$mail->SMTPSecure = 'tls';
 		$mail->Port = '587';
 
-		$mail->setFrom('softdeve84@gmail.com', 'Loan request | Jibika Finance'); // Gmail address which you want to use as STMP server//
+		$mail->setFrom('softdeve84@gmail.com', 'Loan request (JF Pvt.Ltd.'); // Gmail address which you want to use as STMP server//
 		$mail->addAddress('softdeve84@gmail.com');
 		$mail->addCC($email, $name);
 
@@ -230,6 +230,6 @@ if (isset($_POST['form_submit'])) {
 	} catch (Exception $e) {
 		//$alert ='<div class="alert-error"> <span>'.$e->getMessage().' </span> </div>';
 		$_SESSION['status'] = "Loan Application Request Not Successfull ! Plaese try again";
-		$_SESSION['status_code'] = "success";
+		$_SESSION['status_code'] = "warning";
 	}
 }

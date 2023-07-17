@@ -9,12 +9,13 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 	$message=mysqli_real_escape_string($con,$_POST['message']);
 	
 	mysqli_query($con,"insert into contact_us(name,email,phone,subject,message) values('$name','$email','$phone','$subject','$message')");
+	
 	$msg="Thanks message ! Our team will contact with you very soon";
 
 		
 		include('phpmailer/PHPMailerAutoload.php');			
 			$mail = new PHPMailer(true);	
-			$mail->isSMTP();			
+			//$mail->isSMTP();			
 			$mail->Host = "smtp.gmail.com";
 			$mail->SMTPAuth = true;
 			$mail->Username = "softdeve84@gmail.com"; 
