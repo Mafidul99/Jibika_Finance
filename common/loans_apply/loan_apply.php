@@ -45,15 +45,15 @@ if (isset($_POST['form_submit'])) {
 	$baddress = $_POST['baddress'];
 	$bmobilen = $_POST['bmobilen'];
 	$bemailid = $_POST['bemailid'];
-	$declare = $_POST['declare'];
+	$declaration = $_POST['declaration'];
 
 	$attachment = $_FILES['pcimage']['tmp_name'];
-	$attachment1 = $_FILES['Acimage']['tmp_name'];
+	$attachment1 = $_FILES['acimage']['tmp_name'];
 	$attachment2 = $_FILES['vimage']['tmp_name'];
 	$attachment3 = $_FILES['bpimage']['tmp_name'];
 	$attachment4 = $_FILES['trlimage']['tmp_name'];
 	$attachment5 = $_FILES['spoimage']['tmp_name'];
-	$attachment6 = $_FILES['Ypimage']['tmp_name'];
+	$attachment6 = $_FILES['ypimage']['tmp_name'];
 	$attachment7 = $_FILES['simage']['tmp_name'];
 
 	$html = "	<h3 align='center'> Loan Application Details </h3>
@@ -196,22 +196,22 @@ if (isset($_POST['form_submit'])) {
 		//$mail->isSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
-		$mail->Username = 'mafidul.peindia@gmail.com'; // Gmail address which you want to use as STMP server//
-		$mail->Password = 'wifugpjsqtbzxawa';
+		$mail->Username = 'softdeve84@gmail.com'; // Gmail address which you want to use as STMP server//
+		$mail->Password = 'nyyihjbpqojxexjf';
 		$mail->SMTPSecure = 'tls';
 		$mail->Port = '587';
 
-		$mail->setFrom('mafidul.peindia@gmail.com', 'Jibika Finance'); // Gmail address which you want to use as STMP server//
-		$mail->addAddress('mafidul.peindia@gmail.com');
+		$mail->setFrom('softdeve84@gmail.com', 'Loan request | Jibika Finance'); // Gmail address which you want to use as STMP server//
+		$mail->addAddress('softdeve84@gmail.com');
 		$mail->addCC($email, $name);
 
 		$mail->addAttachment($attachment, $_FILES['pcimage']['name']);    // Optional name
-		$mail->addAttachment($attachment1, $_FILES['Acimage']['name']);    // Optional name
+		$mail->addAttachment($attachment1, $_FILES['acimage']['name']);    // Optional name
 		$mail->addAttachment($attachment2, $_FILES['vimage']['name']);    // Optional name
 		$mail->addAttachment($attachment3, $_FILES['bpimage']['name']);    // Optional name
 		$mail->addAttachment($attachment4, $_FILES['trlimage']['name']);    // Optional name
 		$mail->addAttachment($attachment5, $_FILES['spoimage']['name']);    // Optional name
-		$mail->addAttachment($attachment6, $_FILES['Ypimage']['name']);    // Optional name
+		$mail->addAttachment($attachment6, $_FILES['ypimage']['name']);    // Optional name
 		$mail->addAttachment($attachment7, $_FILES['simage']['name']);    // Optional name
 
 		$mail->isHTML(true);

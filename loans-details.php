@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="assets/css/nouislider.min.css">
     <link rel="stylesheet" href="assets/css/nouislider.pips.css">
     <link rel="stylesheet" type="text/css" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
@@ -65,9 +66,10 @@
                         <div class="service-sidebar">
                             <div class="service-sidebar__category ">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <button class="nav-link active serivces-widget-list2" id="v-pills-home-tab" data-toggle="pill" data-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-arrow-right "></i> Individual Loan </button>
-                                    <button class="nav-link serivces-widget-list2" id="v-pills-profile-tab" data-toggle="pill" data-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa fa-arrow-right "></i> Group Loan</button>
-                                    <button class="nav-link serivces-widget-list2" id="v-pills-messages-tab" data-toggle="pill" data-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-arrow-right "></i> Product Loan </button>
+                                    <button class="nav-link active serivces-widget-list2" id="Individual-tab" data-toggle="pill" data-target="#Individual" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-arrow-right "></i> Individual Loan </button>
+                                    <button class="nav-link serivces-widget-list2" id="Group-tab" data-toggle="pill" data-target="#Group" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false"><i class="fa fa-arrow-right "></i> Group Loan</button>
+                                    <button class="nav-link serivces-widget-list2" id="Product-tab" data-toggle="pill" data-target="#Product" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-arrow-right "></i> Product Loan </button>
+                                    <button class="nav-link serivces-widget-list2" id="Gold-tab" data-toggle="pill" data-target="#Gold" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false"><i class="fa fa-arrow-right "></i> Gold Loan </button>
 
                                 </div>
                             </div>
@@ -95,13 +97,16 @@
                                 </div>
                                 <p>We are here to help our customer any time. You can call on 24/7 To Answer Your Question.</p>
                             </div>
+                            <div class="col-md-12">
+                                <a href="common/loans_apply/index.php" class="btn btn-success" style="padding: 20px;">Apply For Loan</a>
+                            </div>
                         </div>
                     </div>
                     <!-- /.col-lg-4 -->
                     <!-- /.col-lg-8 -->
                     <div class="col-lg-8 ">
                         <div class="tab-content" id="v-pills-tabContent">
-                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="tab-pane fade show active" id="Individual" role="tabpanel" aria-labelledby="Individual-tab">
                                 <div class="service-details__content">
                                     <div class="service-details__image">
                                         <img src="assets/images/loans/service-d-1-1.svg" class="img-fluid" alt="">
@@ -185,7 +190,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="tab-pane fade" id="Group" role="tabpanel" aria-labelledby="Group-tab">
                                 <div class="service-details__content">
                                     <div class="service-details__image">
                                         <img src="assets/images/loans/g_loans.svg" class="img-fluid" alt="">
@@ -269,10 +274,94 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="tab-pane fade" id="Product" role="tabpanel" aria-labelledby="Product-tab">
                                 <div class="service-details__content">
                                     <div class="service-details__image">
-                                        <img src="assets/images/loans/mini-loan.svg" class="img-fluid" alt="">
+                                        <img src="assets/images/loans/mini-loan.png" class="img-fluid" alt="">
+                                    </div>
+                                    <!-- /.service-details__image -->
+                                    <h3> Product Loan</h3>
+                                    <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var
+                                        sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p>It has survived not only five centuries. Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum take a look at our round. When an unknown printer took a galley of type and scrambled it to
+                                        make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
+
+                                    <div class="service-details__loan">
+                                        <div class="block-title">
+                                            <h4>Loan Requirements</h4>
+                                        </div>
+                                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.Amet consectetur adipiscing elit pellentesque habitant morbi tristique. Nec feugiat in fermentum posuere</p>
+                                        <ul class="list-unstyled about-two__list service-details__list">
+                                            <li>
+                                                <i class="fa fa-check-circle"></i> Basic loan document required to attachment resing to get such a personal touch
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check-circle"></i> All Property details with photos with soft copy aute irure dolor in lorem voluptate.
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check-circle"></i> Download insurance for loan and mortgage facility to customer eu fugiat pariatur.
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check-circle"></i> For Loan provide all documents as given aute irure dolor in in voluptate loremisum.
+                                            </li>
+                                            <li>
+                                                <i class="fa fa-check-circle"></i> Submit all given document with xerox copy car intrestresutst irure loamd arosloecz.
+                                            </li>
+                                        </ul>
+                                        <!-- /.list-unstyled service-details__list -->
+                                    </div>
+                                    <!-- /.col-md-6 -->
+
+                                    <div class="faq-one faq-one__faq-page py-0 ">
+                                        <ul id="accordion" class="mb-0 wow fadeInUp list-unstyled" data-wow-duration="1500ms">
+                                            <li class="active">
+                                                <h2 class="para-title active">
+                                                    <span class="collapsed" role="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                        <i class="far fa-plus"></i>
+                                                            Need a lower monthly payment plan?
+                                                        </span>
+                                                </h2>
+                                                <div id="collapseTwo" class="collapse show" role="button" aria-labelledby="collapseTwo" data-parent="#accordion">
+                                                    <p>There are many variations of the have suffer in some fo injected humour, or words believable. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et
+                                                        dolore magna aliqua.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h2 class="para-title">
+                                                    <span class="collapsed" role="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                            <i class="far fa-plus"></i>
+                                                            Want to study at prestigious university?
+                                                        </span>
+                                                </h2>
+                                                <div id="collapseOne" class="collapse" aria-labelledby="collapseOne" data-parent="#accordion">
+                                                    <p>There are many variations of the have suffer in some fo injected humour, or words believable. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et
+                                                        dolore magna aliqua.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <h2 class="para-title">
+                                                    <span class="collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" role="button" aria-controls="collapseThree">
+                                                            <i class="far fa-plus"></i>
+                                                            Want to invest and don’t have money?
+                                                        </span>
+                                                </h2>
+                                                <div id="collapseThree" class="collapse" aria-labelledby="collapseThree" data-parent="#accordion">
+                                                    <p>There are many variations of the have suffer in some fo injected humour, or words believable. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et
+                                                        dolore magna aliqua.
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="Gold" role="tabpanel" aria-labelledby="Gold-tab">
+                                <div class="service-details__content">
+                                    <div class="service-details__image">
+                                        <img src="assets/images/loans/Gold Loan.jpg" class="img-fluid" alt="">
                                     </div>
                                     <!-- /.service-details__image -->
                                     <h3> Product Loan</h3>

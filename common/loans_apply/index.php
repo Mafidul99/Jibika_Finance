@@ -493,7 +493,7 @@
                                                 <img id="outputAc" width="250" height="150" / style="display:none">
                                             </div>
                                         </div>
-                                        <input type="file" name="Acimage" id="Acimage" onchange="loadFileAc(event)" class="form-control" required accept="image/*" / style="width:250px;" required>
+                                        <input type="file" name="acimage" id="acimage" onchange="loadFileAc(event)" class="form-control" required accept="image/*" / style="width:250px;" required>
 
                                         <script>
                                             var loadFileAc = function(event) {
@@ -635,7 +635,7 @@
                                                 <img id="output" width="180" height="180" / style="display:none">
                                             </div>
                                         </div>
-                                        <input type="file" name="Ypimage" id="Ypimage" onchange="loadFile(event)" class="form-control" required accept="image/*" / style="width:180px;" required>
+                                        <input type="file" name="ypimage" id="ypimage" onchange="loadFile(event)" class="form-control" required accept="image/*" / style="width:180px;" required>
 
                                         <script>
                                             var loadFile = function(event) {
@@ -688,7 +688,7 @@
                             <div class="col-md-12">
                                 <div style="padding:20px; border-radius: 25px;font-size: 18px;">
                                     <label>Declaration <span style="color:red;">*</span></label>
-                                    <input type="checkbox" name="declare" class="form-control" style="width:28px;" required> I declare that I have read and filled the above information, so if the information given by me is incorrect, you have the right
+                                    <input type="checkbox" name="declaration" class="form-control" style="width:28px;" required> I declare that I have read and filled the above information, so if the information given by me is incorrect, you have the right
                                     to cancel without informing me.
                                 </div>
                             </div>

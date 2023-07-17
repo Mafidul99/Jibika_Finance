@@ -12,18 +12,18 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 	$msg="Thanks message ! Our team will contact with you very soon";
 
 		
-		include('phpmailer/PHPMailerAutoload.php');
-			$mail = new PHPMailer(true);
-			//$mail->isSMTP();
+		include('phpmailer/PHPMailerAutoload.php');			
+			$mail = new PHPMailer(true);	
+			$mail->isSMTP();			
 			$mail->Host = "smtp.gmail.com";
 			$mail->SMTPAuth = true;
-			$mail->Username = "mafidul.peindia@gmail.com"; 
-			$mail->Password = "wifugpjsqtbzxawa";
+			$mail->Username = "softdeve84@gmail.com"; 
+			$mail->Password = "nyyihjbpqojxexjf";
 			$mail->SMTPSecure = "tls";
 			$mail->Port = 587;
 
-			$mail->setFrom("mafidul.peindia@gmail.com"); 
-			$mail->addAddress("mafidul.peindia@gmail.com");
+			$mail->setFrom("softdeve84@gmail.com"); 
+			$mail->addAddress("softdeve84@gmail.com");
 			$mail->isHTML(true);
 			$mail->Subject = "Contact Us Request (JF)";
 			$mail->Body = "<h3> 								

@@ -89,7 +89,7 @@ $reg_no = $_GET['id']; ?>
             ?>
 
                 <div class="col-12" style="text-align: center;padding-bottom: 5px;">
-                    <h3> <u>Jobes Rquest form</u></h3>
+                    <h3> <u>Jobes Request form</u></h3>
                 </div>
                 <div class="table-responsive-sm">
                     <table class="table table-bordered ">

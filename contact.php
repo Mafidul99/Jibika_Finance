@@ -130,9 +130,11 @@
                                     <div class="form-group">
                                         <textarea   name="message" id="message" placeholder="Write Message" rows="7" cols="25" class="contact-one__form-input" required></textarea>
                                     </div>
-                                    <button class="thm-btn" type="submit" name="submit" id="submit" >Send A Message</button>
-                                    <span style="color:green" id="msg"></span>
+                                    <button class="thm-btn" type="submit" name="submit" id="submit" >Send A Message</button>                                    
                                 </div>
+                                    <div class="col-md-12">
+                                        <span style="color:green" id="msg"></span>
+                                    </div>
                                 <!-- /.col-md-6 -->
                             </div>
                             <!-- /.row -->
@@ -179,7 +181,7 @@
     <script src="assets/js/theme.js"></script>    
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-        
+    
         <script>
             jQuery('#contactForm').on('submit',function(e){
                 jQuery('#msg').html('');
@@ -199,6 +201,8 @@
                 e.preventDefault();
             });
 	  </script>
+      
+        
 </body>
 
 </html>
