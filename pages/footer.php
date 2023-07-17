@@ -4,7 +4,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="footer-widget footer-widget__about">
                     <a href="index.php">
-                        <img src="assets/images/logo-light.svg" width="200" alt="Main_footer_logo">
+                        <img src="assets/images/logo-light.svg" width="245" alt="Main_footer_logo">
                     </a>
                     <p>Welcome to pylon loand company we are provide loan as very reasonably interest and you can provide document etur labore.</p>
                     <div class="footer-widget__about-phone">

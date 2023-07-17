@@ -158,7 +158,7 @@
                         <div class="blog-card">
                             <div class="blog-card__image">
                                 <span>20 Sep, 2020</span>
-                                <img src="assets/images/jobs/office.svg" alt="">
+                                <img src="assets/images/jobs/1765948666816992.jpg" alt="">
                             </div>
                             <!-- /.blog-card__image -->
                             <div class="blog-card__content">
@@ -180,7 +180,7 @@
                         <div class="blog-card">
                             <div class="blog-card__image">
                                 <span>20 Sep, 2020</span>
-                                <img src="assets/images/jobs/office.svg" alt="">
+                                <img src="assets/images/jobs/1765948177243558.jpg" alt="">
                             </div>
                             <!-- /.blog-card__image -->
                             <div class="blog-card__content">
@@ -229,6 +229,11 @@
 
     <!-- template js -->
     <script src="assets/js/theme.js"></script>
+
+
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+    <script type="text/javascript">function add_chatinline(){var hccid=45575293;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatinline();</script>
 </body>
 
 </html>

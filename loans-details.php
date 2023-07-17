@@ -364,7 +364,7 @@
                                         <img src="assets/images/loans/Gold Loan.jpg" class="img-fluid" alt="">
                                     </div>
                                     <!-- /.service-details__image -->
-                                    <h3> Product Loan</h3>
+                                    <h3> Gold Loan</h3>
                                     <p>Lorem ipsum is simply free text used by copytyping refreshing. Neque porro est qui dolorem ipsum quia quaed inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Aelltes port lacus quis enim var
                                         sed efficitur turpis gilla sed sit amet finibus eros. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ndustry standard dummy text ever since the 1500s, when an
                                         unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -488,9 +488,11 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js " integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+ " crossorigin="anonymous "></script>
+
+
+
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+    <script type="text/javascript">function add_chatinline(){var hccid=45575293;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatinline();</script>
 </body>
-
-
-<!-- Mirrored from webdevcode.com/html/pylon1/service-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 May 2023 08:32:26 GMT -->
-
 </html>

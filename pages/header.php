@@ -29,7 +29,7 @@
         <div class="container">
             <div class="logo-box">
                 <a href="index.php" aria-label="logo image">
-                    <img src="assets/images/logo-dark.svg" width="200" alt="Main_logo"></a>
+                    <img src="assets/images/logo-dark.svg" width="245" alt="Main_logo"></a>
                 <span class="fa fa-bars mobile-nav__toggler"></span>
             </div>
             <!-- /.logo-box -->

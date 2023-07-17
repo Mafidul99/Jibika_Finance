@@ -169,9 +169,9 @@
 
     <!-- template js -->
     <script src="assets/js/theme.js"></script>
+
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatinline(){var hccid=45575293;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatinline();</script>
 </body>
-
-
-<!-- Mirrored from webdevcode.com/html/pylon1/loan-eligibility.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 May 2023 08:32:28 GMT -->
-
 </html>

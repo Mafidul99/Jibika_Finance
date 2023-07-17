@@ -776,7 +776,7 @@
                     <div class="col-lg-6">
                         <div class="why-choose__image">
                             <p><i class="pylon-icon-investment"></i>2 years of working experience</p>
-                            <img src="assets/images/resources/why-choose-1-1.png" alt="">
+                            <img src="assets/images/resources/1765568306416241.png" alt="">
                         </div>
                         <!-- /.why-choose__image -->
                     </div>
