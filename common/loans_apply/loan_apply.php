@@ -193,7 +193,7 @@ if (isset($_POST['form_submit'])) {
 			</table>";
 
 	try {
-		//$mail->isSMTP();
+		$mail->isSMTP();
 		$mail->Host = 'smtp.gmail.com';
 		$mail->SMTPAuth = true;
 		$mail->Username = 'softdeve84@gmail.com'; // Gmail address which you want to use as STMP server//

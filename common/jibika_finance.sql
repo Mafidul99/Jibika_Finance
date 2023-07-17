@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 26, 2023 at 08:48 PM
+-- Generation Time: Jul 17, 2023 at 09:12 AM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -35,13 +35,6 @@ CREATE TABLE `contact_us` (
   `subject` varchar(50) NOT NULL,
   `message` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `contact_us`
---
-
-INSERT INTO `contact_us` (`id`, `name`, `email`, `phone`, `subject`, `message`) VALUES
-(8, 'Mafidul Islam', 'superadmin@gmail.com', '9876545654', 'superadmin@gmail.com', 'cdscdc');
 
 -- --------------------------------------------------------
 
@@ -80,13 +73,6 @@ CREATE TABLE `jobe_registrations` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `jobe_registrations`
---
-
-INSERT INTO `jobe_registrations` (`reg_id`, `reg_no`, `name`, `fname`, `mname`, `email`, `birthdate`, `mobile`, `pancard`, `aadhaarcard`, `bankcnumber`, `ifsc`, `bankbranch`, `gender`, `qualification`, `martialstatus`, `spname`, `category`, `houseno`, `street`, `city`, `state`, `pincode`, `jobes`, `image`, `sign`, `declaration`) VALUES
-(1, 'JFAJ611684612077', 'mafidul islma', 'ramjan ali', 'raushanara begum', 'mafidul22@gmail.com', '2017-06-21', '8822964555', 'AGAPI7416E', '336904466928', '34796828468', 'SBIN0014617', 'SBI BRANCH MANDIA', 'Male', 'BA', 'Married', 'HAMIDA KHATUN', 'General', 'MANDIA GAON', 'MANDIA', 'BARPETA', 'Single', '781308', 'Multitacking Jobs Vacancies', 'photo_142245208.jpeg', 'sign_1617741291.jpeg', 'on');
-
---
 -- Indexes for dumped tables
 --
 
@@ -110,7 +96,7 @@ ALTER TABLE `jobe_registrations`
 -- AUTO_INCREMENT for table `contact_us`
 --
 ALTER TABLE `contact_us`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT for table `jobe_registrations`
