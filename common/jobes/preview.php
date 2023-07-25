@@ -53,7 +53,7 @@ $reg_no = $_GET['id']; ?>
             <div class="col-4">
             </div>
             <div class="col-4">
-                <img src="logo-dark.svg" class="logo_imag">
+                <img src="logo-dark.png" class="logo_imag">
             </div>
             <div class="col-4">
             </div>

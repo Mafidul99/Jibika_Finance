@@ -444,8 +444,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="block-title">
-                                    <h3 class="title-block">Ducoments Upload </h3>
-                                    <p style="color: green;"><b>(Size :: 500kb to 1 MB)</b></p>
+                                    <h3 class="title-block">Ducoments Upload <span style="color:red;">(only jpeg, jpg, png)</span></h3>
+                                    <p style="color: green;"><b>(Size :: 500kb to 1 MB)</b></p>                                    
                                 </div>
                                 <hr>
                                 <!-- /.block-title-->
@@ -458,7 +458,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Pan Card <span style="color:red;">*</span></label>
+                                            <label>Pan Card <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputpc" width="250" height="150" / style="display:none">
@@ -489,7 +489,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Aadhaar Card <span style="color:red;">*</span></label>
+                                            <label>Aadhaar Card <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputAc" width="250" height="150" / style="display:none">
@@ -518,7 +518,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Voter Card <span style="color:red;">*</span></label>
+                                            <label>Voter Card <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputv" width="250" height="150" / style="display:none">
@@ -546,7 +546,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Bank Passbook <span style="color:red;">*</span></label>
+                                            <label>Bank Passbook <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputbp" width="250" height="150" / style="display:none">
@@ -575,7 +575,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Trade License <span style="color:red;">*</span></label>
+                                            <label>Trade License <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputtrl" width="250" height="150" / style="display:none">
@@ -603,7 +603,7 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Shop Photo&Owner <span style="color:red;">*</span></label>
+                                            <label>Shop Photo&Owner <span style="color:red;">*</span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size : W-3.5" to H-2.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 250px;  background: #F5FAFF;">
                                                 <img id="outputspo" width="250" height="150" / style="display:none">
@@ -631,7 +631,7 @@
                                 <div class="row  float-right">
                                     <div class="col-sm-12 ">
                                         <div class="form-group">
-                                            <label>Your Phoro <span style="color:red;"> * </span></label>
+                                            <label>Your Phoro <span style="color:red;"> * </span> (jpeg, jpg, png) </label>
                                             <p style="color:red;">(size: W-2.5" to H-3.5")</p>
                                             <div style="border: 1px solid black; height: 150px; width: 160px;  background: #F5FAFF;">
                                                 <img id="output" width="160" height="150" / style="display:none">
@@ -660,8 +660,8 @@
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="form-group">
-                                            <label>Your Signature <span style="color:red;">*</span></label>
-                                            <p style="color:red;">(size: W-3.5" to H-1.2")</p>
+                                            <label>Your Signature <span style="color:red;">*</span> (jpeg, jpg, png) </label>
+                                            <p style="color:red;">(size: W-3.5" to H-1.2")</p> 
                                             <div style="border: 1px solid black; height: 110px; width: 260px;  background: #F5FAFF;">
                                                 <img id="outputs" width="260" height="110" / style="display:none">
                                             </div>
