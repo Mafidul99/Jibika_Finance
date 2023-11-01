@@ -37,40 +37,16 @@
                 <!-- /.footer-widget -->
             </div>
             <!-- /.col-lg-2 -->
-            <div class="col-lg-3 col-sm-6">
-                <div class="footer-widget footer-widget__post">
-                    <h3 class="footer-widget__title">Latest News</h3>
-                    <ul class="list-unstyled footer-widget__post-list">
-                        <li>
-                            <img src="../../assets/images/resources/footer-post-1-1.png" alt="">
-                            <div class="footer-widget__post-list-content">
-                                <span>October 16, 2020</span>
-                                <h3><a href="news-details.php">We’re Providing the Quality Services</a></h3>
-                            </div>
-                            <!-- /.footer-widget__post-content -->
-                        </li>
-                        <li>
-                            <img src="../../assets/images/resources/footer-post-1-2.png" alt="">
-                            <div class="footer-widget__post-list-content">
-                                <span>October 16, 2020</span>
-                                <h3><a href="../../news-details.php">We’re Providing the Quality Services</a></h3>
-                            </div>
-                            <!-- /.footer-widget__post-content -->
-                        </li>
-                    </ul>
-                    <!-- /.list-unstyled -->
-                </div>
-                <!-- /.footer-widget -->
-            </div>
+            
             <!-- /.col-lg-3 -->
             <div class="col-lg-4 col-sm-6">
                 <div class="footer-widget footer-widget__contact">
                     <h3>Contact</h3>
                     <ul class="list-unstyled footer-widget__contact-list">
                         <li>
-                            <a href="mailto:info@jibikafinance.com">
+                            <a href="mailto:info@nofinofinance.com">
                                 <i class="pylon-icon-email1"></i>
-                                info@jibikafinance.com
+                                info@nofinofinance.com
                             </a>
                         </li>
                         <li>
@@ -89,6 +65,31 @@
                 <!-- /.footer-widget footer-widget__contact -->
             </div>
             <!-- /.col-lg-4 -->
+            <div class="col-lg-2 col-sm-6">
+                <ul class="list-unstyled footer-widget__post-list1">
+                    <li>
+                        <div class="footer-widget__post-list1-content">
+                            <img src="../../assets/images/iso-9001-logo.png" alt="">
+                            <img src="../../assets/images/pngtree.png" alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/images/google_play.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../../assets/images/App_store.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <img src="../../assets/images/razor-pay.png" alt="">
+            </div>
         </div>
         <!-- /.row -->
     </div>
@@ -97,7 +98,7 @@
 <!-- /.site-footer -->
 <div class="bottom-footer">
     <div class="container">
-        <p>© Copyright 2023 by Jibika Finance Pvt. Ltd </p>
+    <p>© Copyright 2023 by Nofino Rural Finance Private Limited </p>
         <div class="bottom-footer__social">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>

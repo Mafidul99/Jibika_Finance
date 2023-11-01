@@ -9,7 +9,7 @@
             </div>
             <!-- /.topbar__left -->
             <div class="topbar__right">
-                <a href="#"><i class="pylon-icon-email1"></i>info@jibikafinance.com</a>
+                <a href="#"><i class="pylon-icon-email1"></i>info@nofinofinance.com</a>
                 <a href="#"><i class="pylon-icon-clock2"></i>Mon - Sat 8:00 AM - 6:00 PM</a>
             </div>
             <div class="mobile-nav__language2">
@@ -18,6 +18,7 @@
                 <!-- /#language-select.sr-only -->
                 <select class="selectpicker" id="language-select">
                     <option value="english">English</option>
+                    <option value="hindi">Hindi</option>
                 </select>
             </div>
             <!-- /.topbar__right -->

@@ -26,7 +26,7 @@ if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && 
 			$mail->setFrom("softdeve84@gmail.com"); 
 			$mail->addAddress("softdeve84@gmail.com");
 			$mail->isHTML(true);
-			$mail->Subject = "Contact Us Request (JF)";
+			$mail->Subject = "Contact Us Request (NFRF)";
 			$mail->Body = "<h3> 								
 								
 								Your Name : $name <br>

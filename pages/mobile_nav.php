@@ -4,7 +4,9 @@
     <div class="mobile-nav__content">
         <span class="mobile-nav__close mobile-nav__toggler"></span>
         <div class="logo-box">
-            <a href="index.html" aria-label="logo image"><img src="assets/images/logo-light.svg" width="200" alt="" /></a>
+            <a href="index.html" aria-label="logo image">
+                <img src="assets/images/logo-light.svg" width="200" alt="" />
+            </a>
 
         </div>
         <!-- /.logo-box -->
@@ -14,7 +16,7 @@
         <ul class="mobile-nav__contact list-unstyled">
             <li>
                 <i class="pylon-icon-email1"></i>
-                <a href="mailto:info@jibikafinance.com">info@jibikafinance.com</a>
+                <a href="mailto:info@nofinofinance.com">info@nofinofinance.com</a>
             </li>
             <li>
                 <i class="pylon-icon-telephone"></i>
@@ -29,7 +31,7 @@
                 <!-- /#language-select.sr-only -->
                 <select class="selectpicker" id="language-select">
                     <option value="english">English</option>
-                    <option value="arabic">Arabic</option>
+                    <option value="hindi">Hindi</option>
                 </select>
             </div>
             <!-- /.mobile-nav__language -->

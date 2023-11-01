@@ -3424,6 +3424,41 @@ h6 {
     margin-left: 20px;
 }
 
+
+
+.footer-widget__post-list1 {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.footer-widget__post-list1 li {
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-widget__post-list1 hr {
+    background-color: #b0c2d7;
+    height: 0.1px;
+    margin-top: 15px;
+}
+
+.footer-widget__post-list1 li+li {
+    border-top: 1px solid #ffffff1a;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.footer-widget__post-list1 li>img {
+    flex-shrink: 0;
+}
+
+.footer-widget__post-list1-content {
+    margin-left: 20px;
+}
+
+
+
+
 .footer-widget__post-list-content span {
     font-size: 12px;
     color: var(--thm-base);

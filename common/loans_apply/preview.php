@@ -8,10 +8,10 @@ $reg_no = $_GET['id']; ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Loan Request Form</title>
     <!-- favicons Icons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicons/favicon-16x16.png">
-    <meta name="description" content="Pylon Loan HTML Template">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.svg">
+    <meta name="description" content="Nofino Rural Finance Private Limited">
     <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/css/bootstrap-select.min.css">
     <link rel="stylesheet" href="../../assets/css/fontawesome-all.min.css">
@@ -50,18 +50,18 @@ $reg_no = $_GET['id']; ?>
 <body>
 <section>
         <div class="row">
-            <div class="col-4">
+        <div class="col-5">
             </div>
-            <div class="col-4">
-                <img src="logo-dark.svg" class="logo_imag">
+            <div class="col-3">
+                <img src="job_log.svg" class="logo_imag">
             </div>
-            <div class="col-4">
+            <div class="col-5">
             </div>
             <div class="col-md-12">
-                <h2 class="main-heading">Jibika Finance Private Limited</h2>
-                <p class="sub-heading">Ministry of Corporate Affairs (Govt. of India ) Govt. CIN. No. TS75200CP2921NPL TAN. TCPP90708E</p>
-                <p class="address">Hed.Office: Mandia Gaon, Barpeta Assam - 781038 India</p>
-                <p class="email"> Email: technosmarterinfo@gmail.com , Website: www.technosmarter.com</p>
+            <h2 class="main-heading">Nofino Rural Finance Private Limited</h2>
+                <p class="sub-heading">Ministry of Corporate Affairs (Govt. of India ) Govt. CIN. No. U64990AS2023PTC025316 TAN. SHLN04275F</p>
+                <p class="address">Head Office: Mandia Goan, Mandia, Barpeta, Assam -781308 India</p>
+                <p class="email"> Email: hr@nofinofinance.com , Website: www.nofinofinance.com</p>
             </div>
         </div>
         <div class="col-sm-12">
